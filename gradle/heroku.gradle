@@ -1,0 +1,6 @@
+apply plugin: "com.heroku.sdk.heroku-gradle"
+
+heroku {
+  appName = "biosis-twenty-one-points"
+  buildpacks = ["heroku/jvm"]
+}

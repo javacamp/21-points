@@ -38,6 +38,8 @@
     "enableTranslation": true,
     "nativeLanguage": "en",
     "languages": ["en", "fr"],
-    "blueprints": []
+    "blueprints": [],
+    "herokuAppName": "biosis-twenty-one-points",
+    "herokuDeployType": "jar"
   }
 }
